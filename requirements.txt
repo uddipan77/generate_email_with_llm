@@ -1,0 +1,5 @@
+llama==3.3.0
+groq-cloud==1.0.0
+langchain==0.0.1
+chromadb==0.3.21
+python-dotenv==0.19.2
