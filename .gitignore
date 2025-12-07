@@ -1,22 +1,40 @@
-# Ignore everything by default
-/*  
+# --- Python cache / build artifacts ---
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
 
 # --- Virtual environments ---
 .venv/
 venv/
 env/
 
-#extras folder
+# --- OS / editor files ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Jupyter / tooling caches (if ever used) ---
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+.coverage
+
+# --- App-specific secrets & generated data ---
+
+# Real env file with your keys (local only)
+app/.env
+
+# Local ChromaDB storage (can be regenerated)
+app/vectorstore/
+
+# Extras folder you mentioned
 extras/
-
-# Except this .gitignore file itself
-!/.gitignore
-
-# Un-ignore the app folder and all its contents
-!/app/
-
-# Un-ignore the output PNG file
-!/output_cold_email.png
-
-# Un-ignore the read.md file
-!/read.md
