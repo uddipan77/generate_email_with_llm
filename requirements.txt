@@ -1,5 +1,11 @@
-llama==3.3.0
-groq-cloud==1.0.0
-langchain==0.0.1
+streamlit
+
+langchain-community
+langchain-groq
+
 chromadb==0.3.21
 python-dotenv==0.19.2
+pandas
+
+pyyaml>=6.0.2,<7.0.0
+beautifulsoup4

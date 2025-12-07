@@ -1,0 +1,22 @@
+# Ignore everything by default
+/*  
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+#extras folder
+extras/
+
+# Except this .gitignore file itself
+!/.gitignore
+
+# Un-ignore the app folder and all its contents
+!/app/
+
+# Un-ignore the output PNG file
+!/output_cold_email.png
+
+# Un-ignore the read.md file
+!/read.md
